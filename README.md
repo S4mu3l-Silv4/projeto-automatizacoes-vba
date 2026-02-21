@@ -10,6 +10,7 @@
   <br>
 ## Tecnologias utilizadas:
 
+  - Microsoft Excel
   - VBA
   - Git
   - GitHub
