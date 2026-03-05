@@ -18,7 +18,7 @@ Sub EnviarEmailLiberacaoTrigger()
     With OutlookMail
         .To = "exemplo@xxx.com.br; exemplo@xxx.com.br; exemplo@xxx.com.br; exemplo@xxx.com.br; exemplo@xxx.com.br"
         .Cc = ""
-        .Subject = "WFA - Wxxx"
+        .Subject = "WFA - Mês- W"
         
         .Display
         
@@ -27,7 +27,6 @@ Sub EnviarEmailLiberacaoTrigger()
         CorpoEmail = "<div style='font-family:Calibri; font-size:11pt;'>" & _
                 "Bom dia, <br><br>" & _
                 "Segue o WFA atualizado: <br><br>" & _
-                "Informo que todos os requisitos de aplicação estão atendidos: <br><br>" & _
             "</div>"
         
         .HTMLBody = CorpoEmail & Assinatura

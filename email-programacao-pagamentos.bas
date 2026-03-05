@@ -28,7 +28,7 @@ Sub EnviarEmailCobrancaVOClaro()
     With OutlookMail
         .To = "exemplo@xxx.com.br; exemplo@xxx.com.br"
         .Cc = "exemplo@xxx.com.br; exemplo@xxx.com.br"
-        .Subject = "Programação de Pagamentos - CO - Wxxx"
+        .Subject = "Programação de Pagamentos - CO - W"
         
         .Display
         
