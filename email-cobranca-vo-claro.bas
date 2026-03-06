@@ -1,4 +1,4 @@
-ub EnviarEmailCobrancaVOClaro()
+Sub EnviarEmailCobrancaVOClaro()
 
     Dim OutlookApp As Object
     Dim OutlookMail As Object
