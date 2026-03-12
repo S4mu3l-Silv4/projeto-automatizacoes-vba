@@ -26,7 +26,7 @@ Sub EnviarEmailRelatorioClockIn()
         
         CorpoEmail = "<div style='font-family:Calibri; font-size:11pt;'>" & _
                 "Bom dia, <br><br>" & _
-                "Segue o relatório de clock-in atualizado atualizado: <br><br>" & _
+                "Segue o relatório de clock-in atualizado atualizado: <br>" & _
             "</div>"
         
         .HTMLBody = CorpoEmail & Assinatura

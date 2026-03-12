@@ -31,7 +31,7 @@ Sub EnviarEmailProgramacaoPagamentos()
         
         CorpoEmail = "<div style='font-family:Calibri; font-size:11pt;'>" & _
                 "Bom dia, <br><br>" & _
-                "Segue a Programação de Pagamentos: <br><br>" & _
+                "Segue a Programação de Pagamentos: <br>" & _
             "</div>"
         
         .HTMLBody = CorpoEmail & Assinatura

@@ -27,7 +27,7 @@ Sub EnviarEmailLiberacaoTrigger()
         CorpoEmail = "<div style='font-family:Calibri; font-size:11pt;'>" & _
                 "Boa tarde, <br><br>" & _
                 "Poderiam verificar as VOs abaixo por gentileza? Esses casos estão com pendência de aprovação: <br><br>" & _
-                "Informo que todos os requisitos de aplicação estão atendidos: <br><br>" & _
+                "Informo que todos os requisitos de aplicação estão atendidos: <br>" & _
             "</div>"
         
         .HTMLBody = CorpoEmail & Assinatura

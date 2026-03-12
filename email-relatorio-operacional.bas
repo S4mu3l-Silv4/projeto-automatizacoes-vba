@@ -26,7 +26,7 @@ Sub EnviarEmailRelatorioSemanal()
         
         CorpoEmail = "<div style='font-family:Calibri; font-size:11pt;'>" & _
             "Boa tarde, <br><br>" & _
-            "Segue o relatório semanal referente ao fechamento operacional (W): <br><br>" & _
+            "Segue o relatório semanal referente ao fechamento operacional (W): <br>" & _
         "</div>"
         
         .HTMLBody = CorpoEmail & Assinatura

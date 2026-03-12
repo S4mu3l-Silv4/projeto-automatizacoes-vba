@@ -5,8 +5,8 @@
   <br>
 ## Tecnologias utilizadas:
 
-  - Microsoft Excel
   - VBA
+  - Microsoft Excel
   - Git
   - GitHub
   - Visual Studio Code
