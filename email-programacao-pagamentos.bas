@@ -15,8 +15,8 @@ Sub EnviarEmailProgramacaoPagamentos()
     On Error GoTo 0
     Set OutlookMail = OutlookApp.CreateItem(0)
     With OutlookMail
-        .To = "financeiro@premcell.com.br; kelly.martins@premcell.com.br"
-        .Cc = "joao.moreira@premcell.com.br; luan.pereira@premcell.com.br"
+        .To = "exemplo@xxx.com; exemplo@xxx.com"
+        .Cc = "exemplo@xxx.com; exemplo@xxx.com"
         .Subject = "Programação de Pagamentos - CO - W" & numSemana
         .Attachments.Add CaminhoArquivo
         .Display
